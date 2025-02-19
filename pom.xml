@@ -17,7 +17,7 @@
 		<java.version>21</java.version>
 		<encoding>UTF-8</encoding>
 
-		<junit.jupiter.version>5.11.0</junit.jupiter.version>
+		<junit.jupiter.version>5.11.2</junit.jupiter.version>
 		<assertj.version>3.26.3</assertj.version>
 	</properties>
 
