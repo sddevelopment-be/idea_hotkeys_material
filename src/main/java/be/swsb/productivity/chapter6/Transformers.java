@@ -6,11 +6,11 @@ import be.swsb.productivity.chapter6.transformers.Decepticon;
 public class Transformers {
 
     public void disguise() {
-        Autobot optimus = new Autobot();
-        Decepticon megatron = new Decepticon();
-
-        optimus.catchPhrase("Autobots!");
-
-        // Decepticon.StarScream();
+//        Autobot optimus = new Autobot();
+//        Decepticon megatron = new Decepticon();
+//
+//        optimus.catchPhrase("Autobots!");
+//
+//        // Decepticon.StarScream();
     }
 }

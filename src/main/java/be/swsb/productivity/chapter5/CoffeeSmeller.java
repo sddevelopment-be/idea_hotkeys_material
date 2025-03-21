@@ -1,10 +1,8 @@
 package be.swsb.productivity.chapter5;
 
-import be.swsb.productivity.chapter5.beans.CoffeeBeans;
+import java.util.List;
 
-import static com.google.common.collect.Lists.newArrayList;
-import static java.lang.String.format;
-import static java.util.Arrays.asList;
+import be.swsb.productivity.chapter5.beans.CoffeeBeans;
 
 public class CoffeeSmeller {
     public String smell(CoffeeBeans... beans) {
@@ -21,6 +19,6 @@ public class CoffeeSmeller {
     }
 
     private boolean smellsLikeCoffee(String scent) {
-        return newArrayList("marago", "yrgacheffe", "sidamo").contains(scent);
+        return List.of("marago", "yrgacheffe", "sidamo").contains(scent);
     }
 }
